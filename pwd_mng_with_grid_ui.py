@@ -32,10 +32,10 @@ label_pwd = Label(text="Password")
 label_pwd.grid(column=0, row=3)
 input_pwd = Entry(width=25)
 input_pwd.grid(column=1, row=3)
-button_generate = Button(text="Generate", width=8, highlightthickness=0, command=generate_password())
+button_generate = Button(text="Generate", width=8, highlightthickness=0, command=generate_password)
 button_generate.grid(column=2, row=3)
 
-button_add = Button(text="Add", width=20, highlightthickness=0, command=save_password())
+button_add = Button(text="Add", width=20, highlightthickness=0, command=save_password)
 button_add.grid(column=1, row=4, columnspan=2)
 
 window.mainloop()
